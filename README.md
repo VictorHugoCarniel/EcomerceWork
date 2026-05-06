@@ -24,6 +24,8 @@ baixar projeto e abrir em alguma IDE que suporte Java17+
 2. Passo
 rodar projeto e acessar no postman
 3. Testar APIs
+
+```text
 # Listar produtos (público)
 GET http://localhost:8080/produtos
 
@@ -37,7 +39,7 @@ POST http://localhost:8080/auth/login
 GET http://localhost:8080/pedidos
 Authorization: Bearer SEU_JWT_TOKEN
 
-```text
+
 ✅ GET /produtos - Lista produtos (público)
 ✅ GET /produtos/{id} - Detalhes do produto
 ✅ POST /auth/register - Cadastro de usuário
