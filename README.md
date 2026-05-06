@@ -24,7 +24,6 @@ baixar projeto e abrir em alguma IDE que suporte Java17+
 2. Passo
 rodar projeto e acessar no postman
 3. Testar APIs
-4. 
 # Listar produtos (público)
 GET http://localhost:8080/produtos
 
