@@ -5,7 +5,7 @@ Catálogo público de produtos com filtro por categoria e paginação
 Autenticação JWT com cadastro de usuários
 Histórico de compras do usuário autenticado
 Os dados são salvos no H2-Database um banco de dados que pode ser acessado via web por localhost:8080
-
+```text
 🛠 Stack Tecnológica
 Backend	Banco	Segurança	Ferramentas
 Java 17+	H2-Database	Spring Security + JWT	Maven
@@ -37,8 +37,7 @@ POST http://localhost:8080/auth/login
 GET http://localhost:8080/pedidos
 Authorization: Bearer SEU_JWT_TOKEN
 
-📋 Endpoints Principais
-text
+
 ✅ GET /produtos - Lista produtos (público)
 ✅ GET /produtos/{id} - Detalhes do produto
 ✅ POST /auth/register - Cadastro de usuário
@@ -46,13 +45,17 @@ text
 🔒 GET /pedidos - Histórico de compras
 🔒 POST /pedidos - Finalizar compra
 🔒 POST /enderecos - Cadastrar endereço
-📁 Estrutura do Projeto
-text
+```
+
+## Estrutura do Projeto
+
+```text
 src/main/java/br/edu/utfpr/pw44s/
 ├── controller/     # APIs REST
-├── dto/           # Data Transfer Objects
-├── mapper/        # MapStruct mappers
-├── model/         # Entidades JPA
-├── repository/    # Spring Data JPA
-├── service/       # Regras de negócio
-└── security/      # JWT + Spring Security
+├── dto/            # Data Transfer Objects
+├── mapper/         # MapStruct mappers
+├── model/          # Entidades JPA
+├── repository/     # Spring Data JPA
+├── service/        # Regras de negócio
+└── security/       # JWT + Spring Security
+```
