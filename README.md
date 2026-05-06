@@ -5,7 +5,7 @@ Catálogo público de produtos com filtro por categoria e paginação
 Autenticação JWT com cadastro de usuários
 Histórico de compras do usuário autenticado
 Os dados são salvos no H2-Database um banco de dados que pode ser acessado via web por localhost:8080
-```text
+
 🛠 Stack Tecnológica
 Backend	Banco	Segurança	Ferramentas
 Java 17+	H2-Database	Spring Security + JWT	Maven
@@ -37,7 +37,7 @@ POST http://localhost:8080/auth/login
 GET http://localhost:8080/pedidos
 Authorization: Bearer SEU_JWT_TOKEN
 
-
+```text
 ✅ GET /produtos - Lista produtos (público)
 ✅ GET /produtos/{id} - Detalhes do produto
 ✅ POST /auth/register - Cadastro de usuário
